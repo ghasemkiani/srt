@@ -1,0 +1,26 @@
+{
+  "name": "@ghasemkiani/srt",
+  "version": "1.0.0",
+  "description": "Working with the SRT subtitle format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ghasemkiani/srt.git"
+  },
+  "keywords": [
+    "srt",
+    "subtitles"
+  ],
+  "author": "Ghasem Kiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/ghasemkiani/srt/issues"
+  },
+  "homepage": "https://gitlab.com/ghasemkiani/srt#readme",
+  "dependencies": {
+    "@ghasemkiani/commonbase": "github:ghasemkiani/commonbase"
+  }
+}
