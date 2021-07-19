@@ -1,8 +1,8 @@
 //	@ghasemkiani/srt
 
-const {cutil} = require("@ghasemkiani/commonbase/cutil");
-const {serializable} = require("@ghasemkiani/commonbase/serializable");
-const {Base} = require("@ghasemkiani/commonbase/base");
+const {cutil} = require("@ghasemkiani/base/cutil");
+const {serializable} = require("@ghasemkiani/base/serializable");
+const {Obj: Base} = require("@ghasemkiani/base/obj");
 
 const s2t = x => {
 	x = cutil.asString(x);

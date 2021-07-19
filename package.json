@@ -21,6 +21,6 @@
   },
   "homepage": "https://gitlab.com/ghasemkiani/srt#readme",
   "dependencies": {
-    "@ghasemkiani/commonbase": "github:ghasemkiani/commonbase"
+    "@ghasemkiani/base": "github:ghasemkiani/base"
   }
 }
