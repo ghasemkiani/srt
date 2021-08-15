@@ -1,8 +1,8 @@
 //	@ghasemkiani/srt
 
-const {cutil} = require("@ghasemkiani/base/cutil");
-const {serializable} = require("@ghasemkiani/base/serializable");
-const {Obj: Base} = require("@ghasemkiani/base/obj");
+import {cutil} from "@ghasemkiani/base";
+import {serializable} from "@ghasemkiani/base";
+import {Obj} from "@ghasemkiani/base";
 
 const s2t = x => {
 	x = cutil.asString(x);
@@ -25,7 +25,7 @@ const t2s = x => {
 	return t;
 };
 
-class Item extends cutil.mixin(Base, serializable) {
+class Item extends cutil.mixin(Obj, serializable) {
 	get text() {
 		return this.lines.join(this.srt.lineDelim);
 	}
@@ -69,7 +69,7 @@ cutil.extend(Item.prototype, {
 	t2: null,
 });
 
-class Srt extends cutil.mixin(Base, serializable) {
+class Srt extends cutil.mixin(Obj, serializable) {
 	get items() {
 		if (!this._items) {
 			this._items = [];
@@ -114,4 +114,4 @@ cutil.extend(Srt.prototype, {
 	_items: null,
 });
 
-module.exports = {Item, Srt};
+export {Item, Srt};

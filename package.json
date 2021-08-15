@@ -1,7 +1,8 @@
 {
   "name": "@ghasemkiani/srt",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Working with the SRT subtitle format",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
