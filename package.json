@@ -1,6 +1,6 @@
 {
   "name": "@ghasemkiani/srt",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Working with the SRT subtitle format",
   "type": "module",
   "main": "index.js",
