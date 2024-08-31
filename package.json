@@ -1,27 +1,34 @@
 {
-  "name": "@ghasemkiani/srt",
-  "version": "2.1.0",
-  "description": "Working with the SRT subtitle format",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/ghasemkiani/srt.git"
-  },
-  "keywords": [
-    "srt",
-    "subtitles"
-  ],
-  "author": "Ghasem Kiani",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://gitlab.com/ghasemkiani/srt/issues"
-  },
-  "homepage": "https://gitlab.com/ghasemkiani/srt#readme",
-  "dependencies": {
-    "@ghasemkiani/base": "github:ghasemkiani/base"
-  }
+	"name": "@ghasemkiani/srt",
+	"version": "2.1.1",
+	"description": "Working with the SRT subtitle format",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "prettier --write .",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://gitlab.com/ghasemkiani/srt.git"
+	},
+	"keywords": [
+		"srt",
+		"subtitles"
+	],
+	"author": "Ghasem Kiani",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://gitlab.com/ghasemkiani/srt/issues"
+	},
+	"homepage": "https://gitlab.com/ghasemkiani/srt#readme",
+	"dependencies": {
+		"@ghasemkiani/base": "github:ghasemkiani/base"
+	},
+	"devDependencies": {
+		"eslint": "^9.9.1",
+		"prettier": "^3.3.3"
+	}
 }
